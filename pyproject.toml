@@ -5,8 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "jupyterlab-lsp>=5.2.0",
     "notebook>=7.5.3",
     "numpy<2",
     "pandas<3",
+    "python-lsp-server[all]>=1.14.0",
     "torch>=2.10.0",
 ]
